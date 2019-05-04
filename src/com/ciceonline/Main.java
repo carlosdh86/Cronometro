@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         Thread cronometro = new Thread(() -> {
-            int segundos = 0, minutos = 0, horas = 1;
+            int segundos = 0, minutos = 0, horas = 0;
             while (true) {
                 try {
                     Thread.sleep(1000);
